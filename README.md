@@ -16,9 +16,9 @@ Assumptions:
   * ffprobe is used to read the actual segment duration, it is important for caclulating which segments should be included in the playlist
 
 
-Master playlist: _http://localhost:5000/[stream directory].m3u8_
+Master playlist: *http://localhost:5000/[stream directory].m3u8*
 
-Variant playlists: _http://localhost:5000/[stream directory]_[variant].m3u8_
+Variant playlists: *http://localhost:5000/[stream directory]_[variant].m3u8*
 
 For example if you have Big Buck Bunny under static/big_buck_bunny then the master playlist is called using:
 
